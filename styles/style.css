@@ -1,0 +1,76 @@
+.btn{
+      /* Frame 2 */
+width: 116px;
+height: 52px;
+/* Auto layout */
+display: flex;
+padding: 15px 30px 15px 30px;
+box-sizing: border-box;
+border-radius: 8px;
+box-sizing: border-box;
+border: 1px solid rgb(22, 148, 117);
+border-radius: 8px;
+color: rgb(0, 106, 80);
+background: rgb(245, 245, 245);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 31px 160px;
+}
+.banner{
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 160px;
+    margin-right: 160px;
+    padding: 70px 80px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    
+}
+.banner-content{
+    gap: 28px;
+}
+.banner-title{
+    color: rgba(14, 14, 14, 0.5);
+font-family: Fira Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+}
+.banner-description{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 69px;
+font-weight: 700;
+line-height: 67px;
+letter-spacing: 0%;
+text-align: left;
+}
+.btns{
+    /* Frame 2 */
+position: static;
+width: 270px;
+height: 56px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 48;
+padding: 17px 34px 17px 34px;
+border-radius: 8px;
+font-weight: 600;
+border-color: rgb(0, 106, 80);
+
+background: rgb(0, 106, 80);
+color: rgb(255, 255, 255);
+
+/* Inside Auto Layout */
+flex: none;
+margin: 24px 0px;
+}
