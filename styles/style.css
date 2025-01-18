@@ -74,3 +74,203 @@ color: rgb(255, 255, 255);
 flex: none;
 margin: 24px 0px;
 }
+.vision-title{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+
+
+}
+.vision-des{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+
+.visions{
+    margin: 80px 160px;
+}
+.vision-detail{
+    display: flex;
+    padding: 32px 0px;
+    justify-content: space-evenly;
+    gap: 30px;
+    
+}
+.vision1     {
+    box-sizing: border-box;
+    border-radius: 16px;
+    padding: 32px;
+    background: rgba(84, 144, 245, 0.2);    
+}
+.vision2{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    padding: 32px;
+}
+.vision3{
+    box-sizing: border-box;
+    border-radius: 16px;
+    padding: 32px;
+    background: rgb(247, 235, 207);
+}
+.bttn1{
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    padding: 11px 20px;
+    color:rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.bttn2{
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    padding: 11px 20px;
+}
+.bttn3{
+    border-radius: 8px;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    background: rgb(255, 194, 57);
+    padding: 11px 20px;
+    color: rgb(255, 255, 255) ;
+}
+.quote-container{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 35px 20px;
+    gap: 5px;
+}
+.quote-author{
+    color: rgba(14, 14, 14, 0.8);
+    
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.bg{
+        position: absolute;
+}
+
+
+body{
+    font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+}
+
+.top{
+    margin-top: 80px;
+}
+
+.space{
+    gap: 5px;
+}
+.table-container {
+   
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 1280;
+}
+
+thead {
+    background-color: #d8f0e1;
+    
+}
+
+thead th {
+    text-align: left;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    
+}
+
+tbody td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+    color: #555;
+    
+
+    
+}
+
+select {
+    box-sizing: border-box;
+border: 1px solid rgb(14, 14, 14);
+border-radius: 4px;
+background: rgb(198, 228, 214);
+padding: 10px 14px;
+
+    
+}
+.tr1 .tr2 .tr3{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: rgba(255, 255, 255, 0.1);
+padding: 10px 14px;
+}
+/* .divide{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between; */
+   
+
+
+/* .quote{
+    /* box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 24px 48px;
+} */ 
